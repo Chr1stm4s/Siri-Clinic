@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    transition: all 0.3s;
+    font-family: 'Mitr', sans-serif;
+}
+
+.table td.fit,
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+th,
+td {
+    vertical-align: middle !important;
+}
+
+.text-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.overflow-2 {
+    -webkit-line-clamp: 2;
+}
+
+.overflow-3 {
+    -webkit-line-clamp: 3;
+}
+
+.overflow-4 {
+    -webkit-line-clamp: 4;
+}
+
+.overflow-5 {
+    -webkit-line-clamp: 5;
+}
+
+.f-shadow {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+    background-image: url('./main-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-logo {
+    width: 100%;
+}
+
+.bg-gold {
+    background: linear-gradient(to bottom, #9d5308 20%, #dd9b1a 55%, #b7720b 70%); 
+}
+
+.text-gold {
+    color: #c3a832;
+    background: linear-gradient(to bottom, #9d5308 20%, #dd9b1a 55%, #b7720b 70%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.social-icon {
+    height: 35px;
+}
+
+.img-flag {
+    height: 35px;
+}
+
+/* .nav-item.active, .nav-item:hover {
+    background-color: bisque;
+}
+
+.nav-item.active > a, .nav-item:hover > a {
+    color: goldenrod;
+} */
+
+.nav-item > a {
+    color: white;
+}
+
+ul.list-unstyled > li, ul.navbar-nav > li {
+    flex: 1 1 auto;
+}
+
+.body-social-icon {
+    height: 50px;
+}
+
+.footer-map {
+    background-image: url('./square.png');
+    background-size: 30px;
+}
