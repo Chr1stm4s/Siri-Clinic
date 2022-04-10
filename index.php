@@ -16,36 +16,8 @@
 </head>
 
 <body>
-    <section id="headerTop">
-        <div class="container">
-            <div class="row">
-                <div class="col 12 col-md-2">
-                    <img src="./logo.png" alt="" class="header-logo">
-                </div>
-                <div class="col-12 col-md text-center text-md-end my-auto">
-                    <div class="row">
-                        <div class="col col-md-auto ms-auto text-center">
-                            <a href="tel:02-275-8891" class="text-decoration-none text-gold fs-1"><i class="fa-solid fa-phone pe-3"></i>02-275-8891 กด 1</a>
-                            <ul class="list-unstyled d-flex mt-2">
-                                <li> <a href="https://www.facebook.com/Siri-Clinic-720382801356905" target="_blank"><img src="./facebook.png" alt="" class="social-icon bg-white rounded"></a> </li>
-                                <li> <a href="https://www.youtube.com/channel/UC_nkNoMyujqyjVp-FePi6Lw" target="_blank"><img src="./youtube.png" alt="" class="social-icon rounded"></a> </li>
-                                <li> <a href="https://www.instagram.com/" target="_blank"><img src="./instagram.png" alt="" class="social-icon rounded"></a> </li>
-                                <li> <a href="https://line.me/ti/p/" target="_blank"><img src="./line.png" alt="" class="social-icon rounded"></a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <header class="sticky-top bg-gold">
-        <div class="container">
-            <div class="row">
-                <div class="col" id="headerMenu"></div>
-            </div>
-        </div>
-    </header>
+    <?php include_once "./header.php"; ?>
 
     <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -110,20 +82,21 @@
         </button>
     </div>
 
-    <section class="bg-white py-4">
+    <section class="py-4">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 py-3 py-md-0 my-auto">
+                <div class="col-8 col-md-6 py-3 py-md-0 my-auto mx-auto">
                     <div class="row">
                         <div class="col">
-                            <img src="./logo.png" alt="" class="w-100">
+                            <img src="./logo.png" alt="" class="w-100 d-none d-md-block">
+                            <img src="./siri-logo.png" alt="" class="w-100 d-block d-md-none">
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 mx-auto py-3 py-md-0 my-auto">
                     <div class="row">
                         <div class="col-8 col-md mx-auto">
-                            <img src="./k-foncire.png" alt="" class="w-100">
+                            <img src="./k-foncire.png" alt="" class="w-100 d-none d-md-block">
                         </div>
                     </div>
                 </div>
@@ -134,7 +107,7 @@
                         <div class="col-auto mx-auto">
                             <div class="row mb-3">
                                 <div class="col-auto">
-                                    <img src="./facebook.png" alt="" class="body-social-icon rounded">
+                                    <i class="fa-brands fa-facebook-square fa-3x text-danger"></i>
                                 </div>
                                 <div class="col my-auto">
                                     <a href="https://www.facebook.com/Siri-Clinic-720382801356905" target="_blank" class="text-decoration-none fs-1 text-gold">Siri Clinic</a>
@@ -142,15 +115,15 @@
                             </div>
                             <div class="row mb-3">
                                 <div class="col-auto">
-                                    <img src="./facebook.png" alt="" class="body-social-icon rounded">
+                                    <i class="fa-brands fa-facebook-square fa-3x text-danger"></i>
                                 </div>
                                 <div class="col my-auto">
-                                    <a href="https://www.facebook.com/Siri-Care-532227303612220" target="_blank" class="text-decoration-none fs-1 text-gold">Siri Care</a>
+                                    <a href="https://www.facebook.com/Siri-Care-532227303612220" target="_blank" class="text-decoration-none fs-1 text-gold">Siri Care 1</a>
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-auto">
-                                    <img src="./facebook.png" alt="" class="body-social-icon rounded">
+                                    <i class="fa-brands fa-facebook-square fa-3x text-danger"></i>
                                 </div>
                                 <div class="col my-auto">
                                     <a href="https://www.facebook.com/Siri-Care2-143672439702016/" target="_blank" class="text-decoration-none fs-1 text-gold">Siri Care 2</a>
@@ -158,7 +131,7 @@
                             </div>
                             <div class="row mb-3">
                                 <div class="col-auto">
-                                    <img src="./facebook.png" alt="" class="body-social-icon rounded">
+                                    <i class="fa-brands fa-facebook-square fa-3x text-danger"></i>
                                 </div>
                                 <div class="col my-auto">
                                     <a href="https://www.facebook.com/Siri-Care3-776929109148064" target="_blank" class="text-decoration-none fs-1 text-gold">Siri Care 3</a>
@@ -177,15 +150,20 @@
                                     <img src="./line.png" alt="" class="body-social-icon rounded">
                                 </div>
                                 <div class="col my-auto">
-                                    <a href="https://line.me/ti/p/" target="_blank" class="text-decoration-none fs-1 text-gold">siriclinic</a>
+                                    <a href="https://line.me/ti/p/~siriclinic" target="_blank" class="text-decoration-none fs-1 text-gold">siriclinic</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-5 py-3 py-md-0 mx-auto my-auto">
+                    <div class="row my-4 d-block d-md-none">
+                        <div class="col-8 col-md mx-auto">
+                            <img src="./k-foncire.png" alt="" class="w-100">
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-10 mx-auto">
                             <img src="./money.png" alt="" class="w-100">
                         </div>
                     </div>
@@ -194,41 +172,20 @@
         </div>
     </section>
 
-    <section class="footer-map bg-white py-5">
+    <section class="py-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-5 mx-auto my-auto">
-                    <img src="./map1.jpg" alt="" class="w-100">
+                    <img src="./map1.jpg" alt="" class="w-100 img-thumbnail">
                 </div>
-                <div class="col-12 col-md-5 mx-auto my-auto">
-                    <img src="./map2.jpg" alt="" class="w-100">
+                <div class="col-12 col-md-5 mx-auto my-4 my-md-auto">
+                    <img src="./map2.jpg" alt="" class="w-100 img-thumbnail">
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <span class="fs-5 text-warning f-shadow">Copyright &copy; 2022 Siri Groupe Co., Ltd. - All Rights Reserved.</span>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+    <?php include_once "footer.php"; ?>
 </body>
 
 </html>

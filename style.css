@@ -76,6 +76,14 @@ body {
     height: 35px;
 }
 
+.head-gallery {
+    font-size: 80px;
+}
+
+.phone-contact {
+    font-size: 50px;
+}
+
 /* .nav-item.active, .nav-item:hover {
     background-color: bisque;
 }

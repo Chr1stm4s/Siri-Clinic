@@ -8,13 +8,13 @@
                 <a class="nav-link text-center fs-4" aria-current="page" href="./">Home</a>
             </li>
             <li class="nav-item mx-2 rounded">
-                <a class="nav-link text-center fs-4" href="#">Promotions</a>
+                <a class="nav-link text-center fs-4" href="./promotions.html">Promotions</a>
             </li>
             <li class="nav-item mx-2 rounded">
-                <a class="nav-link text-center fs-4" href="#">Gallery</a>
+                <a class="nav-link text-center fs-4" href="./gallery.html">Gallery</a>
             </li>
             <li class="nav-item mx-2 rounded">
-                <a class="nav-link text-center fs-4" href="#">Contact Us</a>
+                <a class="nav-link text-center fs-4" href="./contact.html">Contact Us</a>
             </li>
             <li class="nav-item mx-2 text-center my-auto">
                 <a href="#EN" class="text-decoration-none language">
